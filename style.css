@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     border: 0;
-    background-color: black;
+    background-color: #28282B;
     border-radius: 20px;
     flex-wrap: nowrap;
     margin-top: 10;
@@ -28,7 +28,7 @@
 }
 
 body {
-    background-color: #28282B;
+    background-color: black;
     margin: 0;
 }
 
