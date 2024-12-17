@@ -1,0 +1,104 @@
+@import url('plein.css');
+
+.Container1 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+    background-color: black;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+    margin-top: 10;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+#Title {
+    flex: 1;
+    margin: 0;
+}
+
+#Title p {
+    font-family: 'Plein-Regular';
+    font-size: 80px;
+    color: #D2042D;
+    margin: 0;
+    left:85%;
+}
+
+body {
+    background-color: #28282B;
+    margin: 0;
+}
+
+.TabsBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 0;
+}
+
+.TabsBar a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Plein-Light';
+    color:#D2042D;
+    
+}
+
+.TabsBar a:visited {
+    text-decoration: none;
+    color: #D2042D;
+}
+
+.ImgContainer1 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.ImgContainer1 img {
+    height: auto;
+    object-fit: cover;
+    width: 33.3%;
+    padding: 10;
+}
+
+.ImgContainer2 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.ImgContainer2 img{
+    height: auto;
+    width: 100%;
+}
+
+.ImgContainer3 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.ImgContainer3 img {
+    height: auto;
+    object-fit: cover;
+    width: 33.3%;
+    padding: 10;
+}
+
+.ImgContainer4 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.ImgContainer4 img{
+    height: auto;
+    width: 100%;
+}
+
